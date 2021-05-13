@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JX-Parser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JX_Parser_jar</output-path>
+    <root id="archive" name="JX-Parser.jar">
+      <element id="module-output" name="JX-Parser" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20210307/json-20210307.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

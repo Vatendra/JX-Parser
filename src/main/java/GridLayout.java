@@ -24,8 +24,13 @@ public class GridLayout extends JFrame{
         setSize(windowSize);
         convertButton.addActionListener(actionEvent -> {
             clearButton.setEnabled(true);
+            // Identify input data
+            // If input is valid XML
             XmlToJson xmlToJson = new XmlToJson(inputTextArea.getText());
             outputTextArea.setText(xmlToJson.toJson());
+            // else if input is valid json
+            //___convert to xml and set to view field
+            // else, set message neither valid xml nor json
 
         });
         clearButton.addActionListener(actionEvent -> {
